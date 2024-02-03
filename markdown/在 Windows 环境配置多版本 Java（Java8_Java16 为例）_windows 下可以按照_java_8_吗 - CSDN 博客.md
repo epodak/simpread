@@ -115,7 +115,7 @@ java 和 javac 都可以成功运行了，配置完成！
 进行到上面这一步还并没有完，不信你可以自己试一试当你把 JAVA_HOME 改为 16 之后在 [cmd](https://so.csdn.net/so/search?q=cmd&spm=1001.2101.3001.7020) 中查看版本一定还是 java8
 
 这是因为 PATH 中的第一行 javapath 的优先级高于你后面自己配置 JAVA_HOME 的内容，而 javapath 被指向了 Java8 的版本  
-![](markdown/assets/7882e721.png)
+![](assets/7882e721.png)
 
 所以解决方案有两个：
 
