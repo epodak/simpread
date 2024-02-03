@@ -45,19 +45,19 @@ Java16(Java SE Development Kit 16.0.1) [下载链接](https://www.oracle.com/jav
 ###### 安装 jdk
 
 运行`jdk-8u291-windows-x64.exe`安装程序，无脑 yes 就行了  
-![](https://img-blog.csdnimg.cn/20210614093757850.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)  
+![](./markdown/assets/c4afe341.png)  
 可以自行修改安装位置  
-![](https://img-blog.csdnimg.cn/2021061409390867.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)
+![](./markdown/assets/2e3c88b7.png)
 
 ###### 安装 jre
 
 接下来安装 jre，需要修改位置的话跟刚才的 jdk 放到同一目录下就可以了  
-![](https://img-blog.csdnimg.cn/20210614094017742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)![](https://img-blog.csdnimg.cn/20210614094200996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)
+![](./markdown/assets/88e79b69.png)![](./markdown/assets/6c13ea4d.png)
 
 ###### 配置[环境变量](https://so.csdn.net/so/search?q=%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F&spm=1001.2101.3001.7020)
 
 到这里安装就完成了，我们来测试一下是否安装成功~  
-![](https://img-blog.csdnimg.cn/20210614094355925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)可以看到 java 已经正常了，但是 javac 还是无法识别，所以需要配置环境变量  
+![](./markdown/assets/ea647a26.png)可以看到 java 已经正常了，但是 javac 还是无法识别，所以需要配置环境变量  
 一共需要配置三项内容：JAVA_HOME、CLASSPATH 和 PATH  
 在**系统变量**（不是用户变量）进行修改
 
@@ -73,11 +73,11 @@ Java16(Java SE Development Kit 16.0.1) [下载链接](https://www.oracle.com/jav
 双击进入编辑界面，然后点击右侧 “新建” 按钮，新建两条：  
 `%JAVA_HOME%\bin`  
 `%JAVA_HOME%\jre\bin`  
-![](https://img-blog.csdnimg.cn/20210614095631786.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)  
+![](./markdown/assets/a4c008af.png)  
 之后点击确认（一定要点确认，不要直接点叉，否则不会保存）
 
 现在我们再测试一遍：  
-![](https://img-blog.csdnimg.cn/20210614095814189.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)  
+![](./markdown/assets/1940740f.png)  
 java 和 javac 都可以成功运行了，配置完成！
 
 ##### 3、安装 Java16
@@ -87,7 +87,7 @@ java 和 javac 都可以成功运行了，配置完成！
 由于 java16 我们下载的是压缩包，所以直接将压缩包解压之后的内容放到自己想要的位置就可以了
 
 （这里注意一下，压缩包解压完成后里面还套了一个文件夹，写路径的时候注意别搞错了）  
-![](https://img-blog.csdnimg.cn/20210614101253300.png)  
+![](./markdown/assets/ed715510.png)  
 这里我直接把东西放到刚才安装 Java8 的目录下面了，你愿意放到其他地方也无所谓
 
 ###### 配置 Java16 环境
@@ -115,7 +115,7 @@ java 和 javac 都可以成功运行了，配置完成！
 进行到上面这一步还并没有完，不信你可以自己试一试当你把 JAVA_HOME 改为 16 之后在 [cmd](https://so.csdn.net/so/search?q=cmd&spm=1001.2101.3001.7020) 中查看版本一定还是 java8
 
 这是因为 PATH 中的第一行 javapath 的优先级高于你后面自己配置 JAVA_HOME 的内容，而 javapath 被指向了 Java8 的版本  
-![](https://img-blog.csdnimg.cn/20210614102728653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDA3MjI3MA==,size_16,color_FFFFFF,t_70)
+![](./markdown/assets/7882e721.png)
 
 所以解决方案有两个：
 

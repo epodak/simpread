@@ -9,7 +9,7 @@
 
 今天是个值得庆祝的日子，上海终于解封可以出去玩耍了！
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a062b6bcd5784c119237520d4fe75242~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/08432bf6.jpg)
 
 前言
 --
@@ -30,7 +30,7 @@
 3.  输入`add.test.js`(任何你想查找的文件)
 4.  点击跳转查看内容
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8a8699f94f154244bb79f3e88528f6a3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/40c5533a.jpg)
 
 2. 3 种方式在线使用 “VSCode” 编辑器查看代码
 -----------------------------
@@ -49,7 +49,7 @@
 3.  接着你会被重定向到 [github.dev/vuejs/vue](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.dev%2Fvuejs%2Fvue "https://github.dev/vuejs/vue")
 4.  是不是很爽，和本地 vscode 一模一样
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8528d08596345c69e8e60fc4b58093d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/e85e6cc8.jpg)
 
 2.2 使用 "github1s.com"
 ---------------------
@@ -60,7 +60,7 @@
 2.  将 url 修改为 [github1s.com/vuejs/vue](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fvuejs%2Fvue "https://github1s.com/vuejs/vue")
 3.  神奇不...
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e96ef7decc344503bd3cfaf50c10388a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/92c20660.jpg)
 
 2.3 使用 “gitpod.com/#xxx”
 ------------------------
@@ -71,7 +71,7 @@
 2.  在地址栏最前面添加 gitpod.com/#
 3.  完美...
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9994ef41e6b44029ad347dba82cdcdaa~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/1effe9c5.jpg)
 
 3. 链接到单行代码
 ----------
@@ -87,7 +87,7 @@
 3.  复制链接即可（[github.com/qianlongo/f…](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fqianlongo%2Ffe-handwriting%2Fblob%2Fmaster%2F17.quick-sort.js%23L8%25EF%25BC%2589 "https://github.com/qianlongo/fe-handwriting/blob/master/17.quick-sort.js#L8%EF%BC%89")
     
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e47b911c41ec434eb964324e44d1c3f3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/7452b077.jpg)
 
 相信你一定注意到了链接后的 “L8”。是的，咱们可以通过修改 “L”+ 行号链接到所需的代码。
 
@@ -100,7 +100,7 @@
 2.  按住 “shift” 键并单击左侧的行号
 3.  复制链接（[github.com/qianlongo/f…](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fqianlongo%2Ffe-handwriting%2Fblob%2Fmaster%2F17.quick-sort.js%23L8-L24%25EF%25BC%2589 "https://github.com/qianlongo/fe-handwriting/blob/master/17.quick-sort.js#L8-L24%EF%BC%89")
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a4a217cffe814e8887eca41b8279a0b3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/32bd6470.jpg)
 
 5. 跳转到定义函数的位置
 -------------
@@ -109,14 +109,14 @@
 
 安装插件后，将鼠标放在使用该功能的位置时，会出现一个按钮。单击就可以跳转到定义它的位置。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/92dd0ca7222545a7a8ad50d513504e6e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![](./markdown/assets/f87feeaa.jpg)
 
 6. 查看快捷键列表
 ----------
 
 github 提供了许多快捷键来帮助我们阅读代码，但记住它们真不是一件简单的事，咱们可以使用 “Shift”+“？” 显示快捷方式列表。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ac4346e500441b5abaca03431e6a5f4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![](./markdown/assets/3df2e08b.jpg)
 
 最后
 --
