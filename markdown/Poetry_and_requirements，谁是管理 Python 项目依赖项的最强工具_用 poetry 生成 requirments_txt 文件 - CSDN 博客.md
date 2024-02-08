@@ -65,7 +65,7 @@ poetry new my_project
 
 ```
 
-![](https://img-blog.csdnimg.cn/c4148c1b29114138ac7e5d320dde85b6.png)
+![](markdown/assets/7a24b6e3.png)
 
 （3）导航并初始化 Poetry
 
@@ -76,7 +76,7 @@ poetry init
 
 此时的 pyproject.toml 文件内容
 
-![](https://img-blog.csdnimg.cn/7efa0b8cf9234fc59b692b64b7b624e5.png)
+![](markdown/assets/09d09dfb.png)
 
 （4）**添加依赖项**，比如添加一个 django 2.2.28 版本，
 
@@ -87,11 +87,11 @@ poetry add django==2.2.28
 
 此时的 pyproject.toml 文件内容
 
-![](https://img-blog.csdnimg.cn/80515bb170324f789ad7a154173807fc.png)
+![](markdown/assets/733188be.png)
 
 同时还自动创建或更新 poetry.lock 文件以确保项目的一致性和可重现性，在添加依赖性后项目的所有依赖都会更新。
 
- ![](https://img-blog.csdnimg.cn/1bc5dab6c5fc47f6884b037d59922675.png)
+ ![](markdown/assets/754e9a97.png)
 
  （5）如果手动去修改 pyproject.toml，可以用以下命令更新依赖项
 
@@ -114,9 +114,9 @@ poetry run python my_project/hello.py
 
 ```
 
-![](https://img-blog.csdnimg.cn/39555d5b463346659a37d3daf686f35a.png)
+![](markdown/assets/801ddb60.png)
 
-![](https://img-blog.csdnimg.cn/0f19fdb559484c658f26b19b5faa7df6.png)
+![](markdown/assets/28eafa32.png)
 
  （7）**构建和发布包**：要构建并发布您的 Python 包，将自动生成所需的`setup.py`、`setup.cfg`和`MANIFEST.in`等文件，并将包发布到 PyPI。
 
