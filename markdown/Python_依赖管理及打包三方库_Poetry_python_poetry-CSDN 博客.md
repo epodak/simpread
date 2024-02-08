@@ -339,7 +339,7 @@ poetry add pytest --dev
 ```
 
 `poetry add`依赖安装常见命令如下表格：  
-![](https://img-blog.csdnimg.cn/b693485fee31463d83c353ea42506202.png#pic_center)
+![](./assets/7757b78c.png)
 
 ### 5.2 更新、卸载、查看依赖包
 
@@ -398,7 +398,7 @@ virtualenvs.prompt = "{project_name}-py{python_version}"
 ```
 
 `Poetry`支持的常用参数有：  
-![](https://img-blog.csdnimg.cn/5cc0f3a28c404c33811e5fe1695a1e6e.png#pic_center)
+![](./assets/f515f2c8.png)
 
 ### 6.2 相关操作
 
@@ -425,7 +425,7 @@ poetry config virtualenvs.path --unset
 -------------
 
 `poetry` 提供了一系列覆盖整个开发流程的命令，这些命令使用简单，如表所示：  
-![](https://img-blog.csdnimg.cn/0025ac0a6ac84e30bebd10e1515a1819.png#pic_center)  
+![](./assets/96c8ee5a.png)  
 导出 requirements.txt 文件
 
 ```
